@@ -3,11 +3,26 @@
 }
 
 body {
-  background-color: #da7297;
+  background-color: #fdffe2;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
-  overflow: hidden;
   margin: 0;
+}
+
+canvas {
+  border: 2px solid green;
+}
+
+.toolbox {
+  background-color: yellow;
+  border: 1px solid darkblue;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  width: 804px;
+}
+.toolbox > * {
 }
